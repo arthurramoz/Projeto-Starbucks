@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{ 
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+header{
+    height:200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width:50%;
+}
+
+.menu{
+    padding-top: 38px;
+    text-align: right;
+    width: 50%;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+section .sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    border-radius: 50%;
+    position:absolute;
+    width: 1200px;
+    height: 1200px;
+    bottom: -450px;
+    right: -500px;
+    background-color: #017143;
+}
+
+.extras > img{
+    width: 450px;
+    margin-top: 70px;
+}
+
+.social{
+    position:absolute;
+    right: 510px;
+    top: 200px;
+}
+
+.social img{
+    display: block;
+    width: 25px;
+    margin:20px 0;
+}
+
+.texto-sobre{
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    cursor:pointer;
+    width: 150px;
+    height: 35px;
+    border:0;
+    border-radius: 10px;
+    color: white;
+    background-color: #017143;
+}
