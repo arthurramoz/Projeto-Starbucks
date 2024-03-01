@@ -68,6 +68,7 @@ section .sobre{
 }
 
 .social img{
+    cursor: pointer;
     display: block;
     width: 25px;
     margin:20px 0;
